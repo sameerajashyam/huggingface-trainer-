@@ -31,21 +31,13 @@ This includes checking whether the model is biased towards or against any group.
 
 ---
 
-## 📊 Fairness Audit Summary
 
-**⚠️ No sensitive feature (`gender`, `race`, `lunch`) was used directly during training. But...**  
-The model still learns indirect patterns from features like parental education and test prep.
-
-| Group Type   | Group         | Avg Predicted | Avg Error | Verdict             |
-|--------------|---------------|----------------|-----------|---------------------|
-| **Gender**   | Female        | 63.87           | **+0.23** | ✅ Balanced          |
-|              | Male          | 63.72           | **−5.01** | ⚠️ Underpredicted    |
-| **Race**     | Group A       | 64.12           | +2.49     | ⚠️ Mild overpredict  |
-|              | Group E       | 63.99           | −9.82     | 🚨 Significant bias  |
-| **Lunch**    | Free/Reduced  | 63.88           | +4.96     | ⚠️ Overpredicted     |
-|              | Standard      | 63.74           | −6.29     | ⚠️ Underpredicted    |
 
 ---
 
-## 🛠 Project Structure
+## Demo 
+## 📷 Demo Screenshot
+
+![App Screenshot](result-1.png)
+![App Screenshot](result-2.png)
 
