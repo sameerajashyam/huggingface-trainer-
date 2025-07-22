@@ -38,6 +38,6 @@ This includes checking whether the model is biased towards or against any group.
 ## Demo 
 ## 📷 Demo Screenshot
 
-![App Screenshot](result-1.png)
-![App Screenshot](result-2.png)
+![App Screenshot](result-1.jpg)
+![App Screenshot](result-2.jpg)
 
